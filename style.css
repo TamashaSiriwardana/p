@@ -1,0 +1,43 @@
+/* General Styles */
+body {
+    background-color: #4440b0; /* Dark background */
+    color: #ffffff; /* White text */
+  }
+  
+  /* Hero Section */
+  .hero-section {
+    height: 100vh;
+    background: linear-gradient(to bottom right, #1f1f1f, #333333); /* Dark gradient */
+  }
+  
+  .hero-section h1 {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  
+  .hero-section p {
+    font-size: 1.2rem;
+  }
+  
+  /* Cards */
+  .card {
+    border: 1px solid #9b5454;
+    box-shadow: 0 4px 6px rgba(96, 91, 191, 0.5);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(160, 41, 41, 0.2);
+  }
+  
+  /* Footer */
+  footer {
+    border-top: 1px solid #710c0c;
+  }
+  
+  /* Form */
+  .form-control {
+    border: 1px solid #16043c;
+  }
+  
